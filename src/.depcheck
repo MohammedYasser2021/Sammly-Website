@@ -1,0 +1,10 @@
+{
+    "ignore": [
+        "some-unused-package"
+    ],
+        "special": {
+        "react": {
+            "path": "src/components"
+        }
+    }
+}
