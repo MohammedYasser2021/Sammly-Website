@@ -56,7 +56,7 @@ const Objectives = () => {
       <div className="absolute inset-0 bg-black/40" />
       
       <motion.div 
-        className="container mx-auto px-4 relative z-10"
+        className="container mx-auto px-4 relative "
         variants={containerVariants}
         initial="hidden"
         animate={controls}

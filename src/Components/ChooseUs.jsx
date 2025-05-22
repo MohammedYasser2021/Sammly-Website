@@ -93,7 +93,7 @@ const WhyChooseUs = () => {
       id="why-choose-us"
       style={{ backgroundImage: `url(${chooseBg})` }}
     >
-      <div className="container mx-auto md:px-16 px-10 relative z-10 h-full flex flex-col items-center justify-center">
+      <div className="container mx-auto md:px-16 px-10 relative  h-full flex flex-col items-center justify-center">
         <motion.h2 
           variants={titleVariants}
           className="text-4xl font-bold text-center mb-12 font-['Cairo']"
