@@ -6,14 +6,15 @@ const Footer = () => {
   return (
     <footer className="bg-[#030915] text-white py-8">
       <div className="container mx-auto px-6 sm:px-12">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        {/* <div className="flex flex-col md:flex-row justify-between items-center"> */}
+          <div className="flex justify-center items-center">
           <div className="mb-6 md:mb-0 transform transition-transform duration-500 hover:scale-105">
             <p className="font-poppins font-medium text-[18px] leading-none text-center md:text-left text-white">
               2025 All rights reserved to <span className="text-[#0b60b0] font-bold">SAMMLY</span>
             </p>
           </div>
           
-          <div className="flex flex-col sm:flex-row items-center gap-4">
+          {/* <div className="flex flex-col sm:flex-row items-center gap-4">
             <p className="font-poppins font-medium text-[18px] text-white mb-3 sm:mb-0">
               Follow us:
             </p>
@@ -47,7 +48,7 @@ const Footer = () => {
                 <FaInstagram size={20} />
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

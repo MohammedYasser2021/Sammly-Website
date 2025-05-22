@@ -7,6 +7,7 @@ import Testimonials from "./Components/Testimonials";
 import ChooseUs from "./Components/ChooseUs";
 import Team from "./Components/Team";
 import ContactUs from "./Components/ContactUs";
+import Portfolio from "./Components/Portfolio/Portfolio";
 import SendUs from "./Components/SendUs";
 import Footer from "./Components/Footer";
 import "./index.css";
@@ -18,9 +19,10 @@ function App() {
       <About />
       <Services />
       <Objectives />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <ChooseUs />
-      <Team />
+      <Portfolio />
+      {/* <Team /> */}
       <ContactUs />
       <SendUs />
       <Footer />

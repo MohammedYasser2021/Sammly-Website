@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import HeaderBg from '../assets/header.png';
-import Logo from '../assets/logo.png';
+import Logo from '../assets/logo_sammly.svg';
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -90,8 +90,8 @@ const Header = () => {
                 src={Logo}
                 alt="Logo"
                 style={{
-                  width: '71px',
-                  height: '98px',
+                  width: '90px',
+                  height: '120px',
                   marginRight: '20px',
                 }}
                 className="logo-image"
@@ -536,7 +536,7 @@ const Header = () => {
             }
             
             .logo-image:hover {
-              transform: scale(1.05) rotate(5deg);
+              transform: scale(1.05);
               filter: drop-shadow(0 0 10px rgba(52, 76, 183, 0.5));
             }
             
